@@ -1,0 +1,6 @@
+dbDatabase: MJ_2.1
+dbHost: localhost
+codeGenLogin: admin
+codeGenPassword: 'password'
+dbTrustServerCertificate: Y
+cleanDisabled: false

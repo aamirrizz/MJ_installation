@@ -1,0 +1,22 @@
+{
+  "userHandling": {
+    "autoCreateNewUsers": true,
+    "newUserLimitedToAuthorizedDomains": false,
+    "newUserAuthorizedDomains": [],
+    "newUserRoles": ["developer"],
+    "updateCacheWhenNotFound": true,
+    "updateCacheWhenNotFoundDelay": 5000,
+    "contextUserForNewUserCreation": "aamir.ahmad@elastikteams.com"
+  },
+  "databaseSettings": {
+    "connectionTimeout": 45000,
+    "requestTimeout": 30000,
+    "metadataCacheRefreshInterval": 180000
+  },
+  "viewingSystem": {
+    "enableSmartFilters": true
+  },
+  "askSkip": {
+    "organizationInfo": ""
+  }
+}

@@ -1,0 +1,11 @@
+*.env
+*node_modules/
+SQL Scripts/generated/MJ_2.1
+MJExplorer/src/environments
+
+# /CodeGen/node_modules
+# /GeneratedActions/node_modules
+# /GeneratedEntities/node_modules
+# /MJAPI/node_modules
+# /MJExplorer/node_modules
+# /MJExplorer/.angular/cache/

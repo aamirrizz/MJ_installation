@@ -1,0 +1,319 @@
+STATUS (Wed Jul 31 2024 10:52:30 GMT+0530 (India Standard Time): [Info] 
+
+STARTING MJ CodeGen Run... @ 31/7/2024, 10:52:30 am
+STATUS (Wed Jul 31 2024 10:52:30 GMT+0530 (India Standard Time): [Info] Initializing Data Source...
+STATUS (Wed Jul 31 2024 10:52:31 GMT+0530 (India Standard Time): [Info] Data Source has been initialized!
+STATUS (Wed Jul 31 2024 10:52:32 GMT+0530 (India Standard Time): [Info] Handling SQL Script Execution, Metadata Maintenance, and SQL Object Generation... (to skip this, set skip_database_generation to true in the config file under settings)
+STATUS (Wed Jul 31 2024 10:52:32 GMT+0530 (India Standard Time): [Info] Attempting to create new user: aamir.ahmad@elastikteams.com
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]    Created User Role: Developer
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]    Created User Role: Integration
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]    Created User Role: UI
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info] Finished creating new user: aamir.ahmad@elastikteams.com, saving config file
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info] Managing Metadata...
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]    Creating new entities...
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]     > Created new entities in 0.525 seconds
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]    Updating existing entities...
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]     > Updated existing entities in 0.182 seconds
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]    Scanning for tables that were deleted where entity metadata still exists...
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]     > Removed metadata for deleted tables in 0.032 seconds
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]    Recompiling base views...
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]     > Recompiled base views in 0.003 seconds
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]    Managing entity fields...
+STATUS (Wed Jul 31 2024 10:52:33 GMT+0530 (India Standard Time): [Info]       Ensured __mj_CreatedAt/__mj_UpdatedAt/__mj_DeletedAt fields exist in 0.021 seconds
+STATUS (Wed Jul 31 2024 10:52:35 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 1.338 seconds
+STATUS (Wed Jul 31 2024 10:52:51 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 16.766 seconds
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 5.078 seconds
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.016 seconds
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.009 seconds
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]       Starting to manage entity field values...
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]       Managed entity field values in 0.062 seconds
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 23.296 seconds
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]     > Managed entity fields in 23.298 seconds
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]    Managing entity relationships...
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]     > Managed entity relationships in 0.05 seconds
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info] Managing SQL Scripts and Execution...
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]    Time to run custom SQL scripts: 0 seconds
+ERROR (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Critical] Error: ENOENT: no such file or directory, stat 'C:\Projects\Elastik Teams\MJ_2.1\SQL Scripts\generated\MJ_2.1\__mj'
+STATUS (Wed Jul 31 2024 10:52:57 GMT+0530 (India Standard Time): [Info]    Time to generate entity SQL: 0.199 seconds
+STATUS (Wed Jul 31 2024 10:52:58 GMT+0530 (India Standard Time): [Info]    Time to Execute Combined Entity SQL: 0.968 seconds
+STATUS (Wed Jul 31 2024 10:52:59 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 0.554 seconds
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 15.621 seconds
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 0.31 seconds
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.007 seconds
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.004 seconds
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 16.501 seconds
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info]    Time to run custom SQL scripts: 0 seconds
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info]    Total time to run generate and execute SQL scripts: 17.76 seconds
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Generating GraphQL Resolver Code...
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Generating Entity Subclass Code...
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Generating CORE Entity Type Definitions Code...
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Generating entity sub-class types file in null
+ERROR (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Critical] Error generating core entity type definitions
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Generating Entity Type Definitions Code...
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Generating entity sub-class types file in C:\Projects\Elastik Teams\MJ_2.1\GeneratedEntities\src\generated
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Generating Angular Code...
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Generating Database Schema JSON Output...
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info]      Generated schema JSON file for schema __mj
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Generating Actions Code...
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] Executing AFTER commands...
+STATUS (Wed Jul 31 2024 10:53:15 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedEntities" with args "run build"
+STATUS (Wed Jul 31 2024 10:53:19 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 3.653 seconds
+STATUS (Wed Jul 31 2024 10:53:19 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedActions" with args "run build"
+ERROR (Wed Jul 31 2024 10:53:21 GMT+0530 (India Standard Time): [Critical] Error: Process exited with code 2
+STATUS (Wed Jul 31 2024 10:53:21 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\MJAPI" with args "start"
+ERROR (Wed Jul 31 2024 10:53:25 GMT+0530 (India Standard Time): [Critical] COMMAND: "npm" FAILED: 3.674 seconds
+ERROR (Wed Jul 31 2024 10:53:25 GMT+0530 (India Standard Time): [Critical] COMMAND: "npm" FAILED: 3.676 seconds
+ERROR (Wed Jul 31 2024 10:53:25 GMT+0530 (India Standard Time): [Critical] Error: Process exited with code 1
+STATUS (Wed Jul 31 2024 10:53:25 GMT+0530 (India Standard Time): [Info] 134 entities processed and outputed to configured directories
+STATUS (Wed Jul 31 2024 10:53:25 GMT+0530 (India Standard Time): [Info] MJ CodeGen Run Complete! @ 31/7/2024, 10:53:25 am (54.529 seconds)
+STATUS (Wed Jul 31 2024 19:00:53 GMT+0530 (India Standard Time): [Info] 
+
+STARTING MJ CodeGen Run... @ 31/7/2024, 7:00:53 pm
+STATUS (Wed Jul 31 2024 19:00:53 GMT+0530 (India Standard Time): [Info] Initializing Data Source...
+STATUS (Wed Jul 31 2024 19:00:53 GMT+0530 (India Standard Time): [Info] Data Source has been initialized!
+STATUS (Wed Jul 31 2024 19:00:55 GMT+0530 (India Standard Time): [Info] Handling SQL Script Execution, Metadata Maintenance, and SQL Object Generation... (to skip this, set skip_database_generation to true in the config file under settings)
+STATUS (Wed Jul 31 2024 19:00:56 GMT+0530 (India Standard Time): [Info] Managing Metadata...
+STATUS (Wed Jul 31 2024 19:00:56 GMT+0530 (India Standard Time): [Info]    Creating new entities...
+STATUS (Wed Jul 31 2024 19:00:57 GMT+0530 (India Standard Time): [Info]     > Created new entities in 0.61 seconds
+STATUS (Wed Jul 31 2024 19:00:57 GMT+0530 (India Standard Time): [Info]    Updating existing entities...
+STATUS (Wed Jul 31 2024 19:00:57 GMT+0530 (India Standard Time): [Info]     > Updated existing entities in 0.222 seconds
+STATUS (Wed Jul 31 2024 19:00:57 GMT+0530 (India Standard Time): [Info]    Scanning for tables that were deleted where entity metadata still exists...
+STATUS (Wed Jul 31 2024 19:00:57 GMT+0530 (India Standard Time): [Info]     > Removed metadata for deleted tables in 0.051 seconds
+STATUS (Wed Jul 31 2024 19:00:57 GMT+0530 (India Standard Time): [Info]    Recompiling base views...
+STATUS (Wed Jul 31 2024 19:00:57 GMT+0530 (India Standard Time): [Info]     > Recompiled base views in 0.005 seconds
+STATUS (Wed Jul 31 2024 19:00:57 GMT+0530 (India Standard Time): [Info]    Managing entity fields...
+STATUS (Wed Jul 31 2024 19:00:57 GMT+0530 (India Standard Time): [Info]       Ensured __mj_CreatedAt/__mj_UpdatedAt/__mj_DeletedAt fields exist in 0.03 seconds
+STATUS (Wed Jul 31 2024 19:00:59 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 2.113 seconds
+STATUS (Wed Jul 31 2024 19:01:32 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 32.72 seconds
+STATUS (Wed Jul 31 2024 19:01:49 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 16.707 seconds
+STATUS (Wed Jul 31 2024 19:01:49 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.037 seconds
+STATUS (Wed Jul 31 2024 19:01:49 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.022 seconds
+STATUS (Wed Jul 31 2024 19:01:49 GMT+0530 (India Standard Time): [Info]       Starting to manage entity field values...
+STATUS (Wed Jul 31 2024 19:01:49 GMT+0530 (India Standard Time): [Info]       Managed entity field values in 0.174 seconds
+STATUS (Wed Jul 31 2024 19:01:49 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 51.813 seconds
+STATUS (Wed Jul 31 2024 19:01:49 GMT+0530 (India Standard Time): [Info]     > Managed entity fields in 51.816 seconds
+STATUS (Wed Jul 31 2024 19:01:49 GMT+0530 (India Standard Time): [Info]    Managing entity relationships...
+STATUS (Wed Jul 31 2024 19:01:49 GMT+0530 (India Standard Time): [Info]     > Managed entity relationships in 0.115 seconds
+STATUS (Wed Jul 31 2024 19:01:50 GMT+0530 (India Standard Time): [Info] Managing SQL Scripts and Execution...
+STATUS (Wed Jul 31 2024 19:01:50 GMT+0530 (India Standard Time): [Info]    Time to run custom SQL scripts: 0 seconds
+STATUS (Wed Jul 31 2024 19:01:51 GMT+0530 (India Standard Time): [Info]    Time to generate entity SQL: 0.45 seconds
+STATUS (Wed Jul 31 2024 19:01:53 GMT+0530 (India Standard Time): [Info]    Time to Execute Combined Entity SQL: 1.676 seconds
+STATUS (Wed Jul 31 2024 19:01:54 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 1.117 seconds
+STATUS (Wed Jul 31 2024 19:02:27 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 32.917 seconds
+STATUS (Wed Jul 31 2024 19:02:28 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 0.613 seconds
+STATUS (Wed Jul 31 2024 19:02:28 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.007 seconds
+STATUS (Wed Jul 31 2024 19:02:28 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.007 seconds
+STATUS (Wed Jul 31 2024 19:02:28 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 34.666 seconds
+STATUS (Wed Jul 31 2024 19:02:28 GMT+0530 (India Standard Time): [Info]    Time to run custom SQL scripts: 0 seconds
+STATUS (Wed Jul 31 2024 19:02:28 GMT+0530 (India Standard Time): [Info]    Total time to run generate and execute SQL scripts: 37.274 seconds
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Generating GraphQL Resolver Code...
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Generating Entity Subclass Code...
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Generating CORE Entity Type Definitions Code...
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Generating entity sub-class types file in null
+ERROR (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Critical] Error generating core entity type definitions
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Generating Entity Type Definitions Code...
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Generating entity sub-class types file in C:\Projects\Elastik Teams\MJ_2.1\GeneratedEntities\src\generated
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Generating Angular Code...
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Generating Database Schema JSON Output...
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info]      Generated schema JSON file for schema __mj
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Generating Actions Code...
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] Executing AFTER commands...
+STATUS (Wed Jul 31 2024 19:02:29 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedEntities" with args "run build"
+STATUS (Wed Jul 31 2024 19:02:33 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 3.913 seconds
+STATUS (Wed Jul 31 2024 19:02:33 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedActions" with args "run build"
+STATUS (Wed Jul 31 2024 19:02:37 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 3.798 seconds
+STATUS (Wed Jul 31 2024 19:02:37 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\MJAPI" with args "start"
+ERROR (Wed Jul 31 2024 19:02:40 GMT+0530 (India Standard Time): [Critical] COMMAND: "npm" FAILED: 3.656 seconds
+ERROR (Wed Jul 31 2024 19:02:40 GMT+0530 (India Standard Time): [Critical] COMMAND: "npm" FAILED: 3.659 seconds
+ERROR (Wed Jul 31 2024 19:02:40 GMT+0530 (India Standard Time): [Critical] Error: Process exited with code 1
+STATUS (Wed Jul 31 2024 19:02:40 GMT+0530 (India Standard Time): [Info] 134 entities processed and outputed to configured directories
+STATUS (Wed Jul 31 2024 19:02:40 GMT+0530 (India Standard Time): [Info] MJ CodeGen Run Complete! @ 31/7/2024, 7:02:40 pm (107.315 seconds)
+STATUS (Thu Aug 01 2024 19:07:29 GMT+0530 (India Standard Time): [Info] 
+
+STARTING MJ CodeGen Run... @ 1/8/2024, 7:07:29 pm
+STATUS (Thu Aug 01 2024 19:07:29 GMT+0530 (India Standard Time): [Info] Initializing Data Source...
+STATUS (Thu Aug 01 2024 19:07:30 GMT+0530 (India Standard Time): [Info] Data Source has been initialized!
+STATUS (Thu Aug 01 2024 19:07:30 GMT+0530 (India Standard Time): [Info] Handling SQL Script Execution, Metadata Maintenance, and SQL Object Generation... (to skip this, set skip_database_generation to true in the config file under settings)
+STATUS (Thu Aug 01 2024 19:07:31 GMT+0530 (India Standard Time): [Info] Managing Metadata...
+STATUS (Thu Aug 01 2024 19:07:31 GMT+0530 (India Standard Time): [Info]    Creating new entities...
+STATUS (Thu Aug 01 2024 19:07:31 GMT+0530 (India Standard Time): [Info]     > Created new entities in 0.367 seconds
+STATUS (Thu Aug 01 2024 19:07:31 GMT+0530 (India Standard Time): [Info]    Updating existing entities...
+STATUS (Thu Aug 01 2024 19:07:31 GMT+0530 (India Standard Time): [Info]     > Updated existing entities in 0.202 seconds
+STATUS (Thu Aug 01 2024 19:07:31 GMT+0530 (India Standard Time): [Info]    Scanning for tables that were deleted where entity metadata still exists...
+STATUS (Thu Aug 01 2024 19:07:32 GMT+0530 (India Standard Time): [Info]     > Removed metadata for deleted tables in 0.036 seconds
+STATUS (Thu Aug 01 2024 19:07:32 GMT+0530 (India Standard Time): [Info]    Recompiling base views...
+STATUS (Thu Aug 01 2024 19:07:32 GMT+0530 (India Standard Time): [Info]     > Recompiled base views in 0.002 seconds
+STATUS (Thu Aug 01 2024 19:07:32 GMT+0530 (India Standard Time): [Info]    Managing entity fields...
+STATUS (Thu Aug 01 2024 19:07:32 GMT+0530 (India Standard Time): [Info]       Ensured __mj_CreatedAt/__mj_UpdatedAt/__mj_DeletedAt fields exist in 0.02 seconds
+STATUS (Thu Aug 01 2024 19:07:33 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 1.68 seconds
+STATUS (Thu Aug 01 2024 19:07:50 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 16.955 seconds
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 5.559 seconds
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.013 seconds
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.01 seconds
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]       Starting to manage entity field values...
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]       Managed entity field values in 0.097 seconds
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 24.339 seconds
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]     > Managed entity fields in 24.339 seconds
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]    Managing entity relationships...
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]     > Managed entity relationships in 0.052 seconds
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info] Managing SQL Scripts and Execution...
+STATUS (Thu Aug 01 2024 19:07:56 GMT+0530 (India Standard Time): [Info]    Time to run custom SQL scripts: 0 seconds
+STATUS (Thu Aug 01 2024 19:07:57 GMT+0530 (India Standard Time): [Info]    Time to generate entity SQL: 0.233 seconds
+STATUS (Thu Aug 01 2024 19:07:58 GMT+0530 (India Standard Time): [Info]    Time to Execute Combined Entity SQL: 0.811 seconds
+STATUS (Thu Aug 01 2024 19:07:58 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 0.56 seconds
+STATUS (Thu Aug 01 2024 19:08:14 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 15.749 seconds
+STATUS (Thu Aug 01 2024 19:08:14 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 0.281 seconds
+STATUS (Thu Aug 01 2024 19:08:14 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.007 seconds
+STATUS (Thu Aug 01 2024 19:08:14 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.004 seconds
+STATUS (Thu Aug 01 2024 19:08:14 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 16.603 seconds
+STATUS (Thu Aug 01 2024 19:08:14 GMT+0530 (India Standard Time): [Info]    Time to run custom SQL scripts: 0 seconds
+STATUS (Thu Aug 01 2024 19:08:14 GMT+0530 (India Standard Time): [Info]    Total time to run generate and execute SQL scripts: 17.875 seconds
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Generating GraphQL Resolver Code...
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Generating Entity Subclass Code...
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Generating CORE Entity Type Definitions Code...
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Generating entity sub-class types file in null
+ERROR (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Critical] Error generating core entity type definitions
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Generating Entity Type Definitions Code...
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Generating entity sub-class types file in C:\Projects\Elastik Teams\MJ_2.1\GeneratedEntities\src\generated
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Generating Angular Code...
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Generating Database Schema JSON Output...
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info]      Generated schema JSON file for schema __mj
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Generating Actions Code...
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] Executing AFTER commands...
+STATUS (Thu Aug 01 2024 19:08:15 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedEntities" with args "run build"
+STATUS (Thu Aug 01 2024 19:08:20 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 5.222 seconds
+STATUS (Thu Aug 01 2024 19:08:20 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedActions" with args "run build"
+STATUS (Thu Aug 01 2024 19:08:27 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 6.661 seconds
+STATUS (Thu Aug 01 2024 19:08:27 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\MJAPI" with args "start"
+ERROR (Thu Aug 01 2024 19:08:43 GMT+0530 (India Standard Time): [Critical] COMMAND: "npm" FAILED: 16.377 seconds
+STATUS (Thu Aug 01 2024 19:08:57 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED  - FAILED IN 30.024 seconds
+ERROR (Thu Aug 01 2024 19:08:57 GMT+0530 (India Standard Time): [Critical] ERROR running one or more AFTER commands
+STATUS (Thu Aug 01 2024 19:08:57 GMT+0530 (India Standard Time): [Info] 134 entities processed and outputed to configured directories
+STATUS (Thu Aug 01 2024 19:08:57 GMT+0530 (India Standard Time): [Info] MJ CodeGen Run Complete! @ 1/8/2024, 7:08:57 pm (87.709 seconds)
+STATUS (Fri Aug 02 2024 12:31:23 GMT+0530 (India Standard Time): [Info] 
+
+STARTING MJ CodeGen Run... @ 2/8/2024, 12:31:23 pm
+STATUS (Fri Aug 02 2024 12:31:23 GMT+0530 (India Standard Time): [Info] Initializing Data Source...
+STATUS (Fri Aug 02 2024 12:31:24 GMT+0530 (India Standard Time): [Info] Data Source has been initialized!
+STATUS (Fri Aug 02 2024 12:31:38 GMT+0530 (India Standard Time): [Info] Handling SQL Script Execution, Metadata Maintenance, and SQL Object Generation... (to skip this, set skip_database_generation to true in the config file under settings)
+STATUS (Fri Aug 02 2024 12:31:39 GMT+0530 (India Standard Time): [Info] Managing Metadata...
+STATUS (Fri Aug 02 2024 12:31:39 GMT+0530 (India Standard Time): [Info]    Creating new entities...
+STATUS (Fri Aug 02 2024 12:31:41 GMT+0530 (India Standard Time): [Info]     > Created new entities in 2.038 seconds
+STATUS (Fri Aug 02 2024 12:31:41 GMT+0530 (India Standard Time): [Info]    Updating existing entities...
+STATUS (Fri Aug 02 2024 12:31:41 GMT+0530 (India Standard Time): [Info]     > Updated existing entities in 0.166 seconds
+STATUS (Fri Aug 02 2024 12:31:41 GMT+0530 (India Standard Time): [Info]    Scanning for tables that were deleted where entity metadata still exists...
+STATUS (Fri Aug 02 2024 12:31:41 GMT+0530 (India Standard Time): [Info]     > Removed metadata for deleted tables in 0.081 seconds
+STATUS (Fri Aug 02 2024 12:31:41 GMT+0530 (India Standard Time): [Info]    Recompiling base views...
+STATUS (Fri Aug 02 2024 12:31:41 GMT+0530 (India Standard Time): [Info]     > Recompiled base views in 0.003 seconds
+STATUS (Fri Aug 02 2024 12:31:41 GMT+0530 (India Standard Time): [Info]    Managing entity fields...
+STATUS (Fri Aug 02 2024 12:31:41 GMT+0530 (India Standard Time): [Info]       Ensured __mj_CreatedAt/__mj_UpdatedAt/__mj_DeletedAt fields exist in 0.131 seconds
+STATUS (Fri Aug 02 2024 12:32:39 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 57.982 seconds
+STATUS (Fri Aug 02 2024 12:32:58 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 18.854 seconds
+STATUS (Fri Aug 02 2024 12:33:09 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 11.126 seconds
+STATUS (Fri Aug 02 2024 12:33:09 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.042 seconds
+STATUS (Fri Aug 02 2024 12:33:09 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.012 seconds
+STATUS (Fri Aug 02 2024 12:33:09 GMT+0530 (India Standard Time): [Info]       Starting to manage entity field values...
+STATUS (Fri Aug 02 2024 12:33:10 GMT+0530 (India Standard Time): [Info]       Managed entity field values in 0.121 seconds
+STATUS (Fri Aug 02 2024 12:33:10 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 88.277 seconds
+STATUS (Fri Aug 02 2024 12:33:10 GMT+0530 (India Standard Time): [Info]     > Managed entity fields in 88.28 seconds
+STATUS (Fri Aug 02 2024 12:33:10 GMT+0530 (India Standard Time): [Info]    Managing entity relationships...
+STATUS (Fri Aug 02 2024 12:33:10 GMT+0530 (India Standard Time): [Info]     > Managed entity relationships in 0.062 seconds
+STATUS (Fri Aug 02 2024 12:33:10 GMT+0530 (India Standard Time): [Info] Managing SQL Scripts and Execution...
+STATUS (Fri Aug 02 2024 12:33:10 GMT+0530 (India Standard Time): [Info]    Time to run custom SQL scripts: 0 seconds
+ERROR (Fri Aug 02 2024 12:33:10 GMT+0530 (India Standard Time): [Critical] Error: ENOENT: no such file or directory, stat 'C:\Projects\Elastik Teams\MJ_2.1\SQL Scripts\generated\MJ_2.1\dbo'
+STATUS (Fri Aug 02 2024 12:33:11 GMT+0530 (India Standard Time): [Info]    Time to generate entity SQL: 0.264 seconds
+STATUS (Fri Aug 02 2024 12:33:12 GMT+0530 (India Standard Time): [Info]    Time to Execute Combined Entity SQL: 1.327 seconds
+STATUS (Fri Aug 02 2024 12:33:38 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 26.287 seconds
+STATUS (Fri Aug 02 2024 12:33:57 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 18.564 seconds
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 31.856 seconds
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.022 seconds
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.013 seconds
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 76.75 seconds
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info]    Time to run custom SQL scripts: 0 seconds
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info]    Total time to run generate and execute SQL scripts: 78.564 seconds
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info] Generating GraphQL Resolver Code...
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info] Generating Entity Subclass Code...
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info] Generating Angular Code...
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info] Generating Database Schema JSON Output...
+STATUS (Fri Aug 02 2024 12:34:29 GMT+0530 (India Standard Time): [Info]      Generated schema JSON file for schema __mj
+STATUS (Fri Aug 02 2024 12:34:30 GMT+0530 (India Standard Time): [Info] Generating Actions Code...
+STATUS (Fri Aug 02 2024 12:34:30 GMT+0530 (India Standard Time): [Info] Executing AFTER commands...
+STATUS (Fri Aug 02 2024 12:34:30 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedEntities" with args "run build"
+STATUS (Fri Aug 02 2024 12:34:34 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 4.886 seconds
+STATUS (Fri Aug 02 2024 12:34:34 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedActions" with args "run build"
+STATUS (Fri Aug 02 2024 12:34:41 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 6.528 seconds
+STATUS (Fri Aug 02 2024 12:34:41 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\MJAPI" with args "start"
+ERROR (Fri Aug 02 2024 12:35:01 GMT+0530 (India Standard Time): [Critical] COMMAND: "npm" FAILED: 20.332 seconds
+STATUS (Fri Aug 02 2024 12:35:03 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 21.806 seconds
+ERROR (Fri Aug 02 2024 12:35:03 GMT+0530 (India Standard Time): [Critical] ERROR running one or more AFTER commands
+STATUS (Fri Aug 02 2024 12:35:03 GMT+0530 (India Standard Time): [Info] 138 entities processed and outputed to configured directories
+STATUS (Fri Aug 02 2024 12:35:03 GMT+0530 (India Standard Time): [Info] MJ CodeGen Run Complete! @ 2/8/2024, 12:35:03 pm (219.311 seconds)
+STATUS (Fri Aug 02 2024 15:33:08 GMT+0530 (India Standard Time): [Info] 
+
+STARTING MJ CodeGen Run... @ 2/8/2024, 3:33:08 pm
+STATUS (Fri Aug 02 2024 15:33:08 GMT+0530 (India Standard Time): [Info] Initializing Data Source...
+STATUS (Fri Aug 02 2024 15:33:08 GMT+0530 (India Standard Time): [Info] Data Source has been initialized!
+STATUS (Fri Aug 02 2024 15:33:09 GMT+0530 (India Standard Time): [Info] Handling SQL Script Execution, Metadata Maintenance, and SQL Object Generation... (to skip this, set skip_database_generation to true in the config file under settings)
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info] Managing Metadata...
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]    Creating new entities...
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]     > Created new entities in 0.351 seconds
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]    Updating existing entities...
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]     > Updated existing entities in 0.176 seconds
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]    Scanning for tables that were deleted where entity metadata still exists...
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]     > Removed metadata for deleted tables in 0.051 seconds
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]    Recompiling base views...
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]     > Recompiled base views in 0.136 seconds
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]    Managing entity fields...
+STATUS (Fri Aug 02 2024 15:33:11 GMT+0530 (India Standard Time): [Info]       Ensured __mj_CreatedAt/__mj_UpdatedAt/__mj_DeletedAt fields exist in 0.116 seconds
+ERROR (Fri Aug 02 2024 15:35:11 GMT+0530 (India Standard Time): [Critical] QueryFailedError: Error: Timeout: Request failed to complete in 120000ms
+ERROR (Fri Aug 02 2024 15:35:11 GMT+0530 (India Standard Time): [Critical] Error deleting unneeded entity fields
+STATUS (Fri Aug 02 2024 15:35:11 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 120.074 seconds
+ERROR (Fri Aug 02 2024 15:37:12 GMT+0530 (India Standard Time): [Critical] QueryFailedError: Error: Timeout: Request failed to complete in 120000ms
+ERROR (Fri Aug 02 2024 15:37:12 GMT+0530 (India Standard Time): [Critical] Error updating existing entity fields from schema
+STATUS (Fri Aug 02 2024 15:37:12 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 120.402 seconds
+ERROR (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Critical] QueryFailedError: Error: Timeout: Request failed to complete in 120000ms
+ERROR (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Critical] Error creating new entity fields from schema
+STATUS (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 120.013 seconds
+STATUS (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.058 seconds
+STATUS (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.011 seconds
+STATUS (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Info]       Starting to manage entity field values...
+STATUS (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Info]       Managed entity field values in 0.152 seconds
+STATUS (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 360.831 seconds
+ERROR (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Critical]    Error managing entity fields
+STATUS (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Info]     > Managed entity fields in 360.833 seconds
+STATUS (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Info]    Managing entity relationships...
+STATUS (Fri Aug 02 2024 15:39:12 GMT+0530 (India Standard Time): [Info]     > Managed entity relationships in 0.06 seconds
+ERROR (Fri Aug 02 2024 15:39:13 GMT+0530 (India Standard Time): [Critical] ERROR managing metadata
+STATUS (Fri Aug 02 2024 15:39:13 GMT+0530 (India Standard Time): [Info] Managing SQL Scripts and Execution...
+STATUS (Fri Aug 02 2024 15:39:13 GMT+0530 (India Standard Time): [Info]    Time to run custom SQL scripts: 0 seconds
+STATUS (Fri Aug 02 2024 15:39:13 GMT+0530 (India Standard Time): [Info]    Time to generate entity SQL: 0.254 seconds
+STATUS (Fri Aug 02 2024 15:39:15 GMT+0530 (India Standard Time): [Info]    Time to Execute Combined Entity SQL: 1.691 seconds
+ERROR (Fri Aug 02 2024 15:41:15 GMT+0530 (India Standard Time): [Critical] QueryFailedError: Error: Timeout: Request failed to complete in 120000ms
+ERROR (Fri Aug 02 2024 15:41:15 GMT+0530 (India Standard Time): [Critical] Error deleting unneeded entity fields
+STATUS (Fri Aug 02 2024 15:41:15 GMT+0530 (India Standard Time): [Info]       Deleted unneeded entity fields in 120.026 seconds
+STATUS (Fri Aug 02 2024 15:41:37 GMT+0530 (India Standard Time): [Info]       Updated existing entity fields from schema in 22.012 seconds
+ERROR (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Critical] QueryFailedError: Error: Timeout: Request failed to complete in 120000ms
+ERROR (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Critical] Error creating new entity fields from schema
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info]       Created new entity fields from schema in 120.016 seconds
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info]       Set default column width where needed in 0.045 seconds
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info]       Updated entity field display name where null in 0.016 seconds
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info]       Total time to manage entity fields: 262.12 seconds
+ERROR (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Critical] Error managing entity fields
+ERROR (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Critical] Error managing SQL scripts and execution
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info] Generating GraphQL Resolver Code...
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info] Generating Entity Subclass Code...
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info] Generating Angular Code...
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info] Generating Database Schema JSON Output...
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info]      Generated schema JSON file for schema __mj
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info] Generating Actions Code...
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info] Executing AFTER commands...
+STATUS (Fri Aug 02 2024 15:43:37 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedEntities" with args "run build"
+STATUS (Fri Aug 02 2024 15:43:42 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 4.613 seconds
+STATUS (Fri Aug 02 2024 15:43:42 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\GeneratedActions" with args "run build"
+STATUS (Fri Aug 02 2024 15:43:50 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 8.629 seconds
+STATUS (Fri Aug 02 2024 15:43:51 GMT+0530 (India Standard Time): [Info] STARTING COMMAND: "npm" in location "C:\Projects\Elastik Teams\MJ_2.1\MJAPI" with args "start"
+ERROR (Fri Aug 02 2024 15:44:06 GMT+0530 (India Standard Time): [Critical] COMMAND: "npm" FAILED: 15.055 seconds
+STATUS (Fri Aug 02 2024 15:44:06 GMT+0530 (India Standard Time): [Info] COMMAND: "npm" COMPLETED SUCCESSFULLY: 15.997 seconds
+ERROR (Fri Aug 02 2024 15:44:06 GMT+0530 (India Standard Time): [Critical] ERROR running one or more AFTER commands
+STATUS (Fri Aug 02 2024 15:44:06 GMT+0530 (India Standard Time): [Info] 138 entities processed and outputed to configured directories
+STATUS (Fri Aug 02 2024 15:44:06 GMT+0530 (India Standard Time): [Info] MJ CodeGen Run Complete! @ 2/8/2024, 3:44:06 pm (658.495 seconds)
